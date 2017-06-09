@@ -5,28 +5,60 @@ package southlanesresort.roomreservations.newhotelroomreservation;
  */
 
 @javax.persistence.Entity
-public class CreditCard implements java.io.Serializable {
+public class CreditCard implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "CREDITCARD_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "CREDITCARD_ID_SEQ", name = "CREDITCARD_ID_GENERATOR")
-    private java.lang.Long id;
+   @org.kie.api.definition.type.Label(value = "Name on credit card")
+   private java.lang.String cardHolder;
 
-    public CreditCard() {
-    }
-    
-    public CreditCard(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Credit card number")
+   private java.lang.Integer cardNumber;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "CVV")
+   private java.lang.Integer cvv;
+
+   public CreditCard()
+   {
+   }
+
+   public java.lang.String getCardHolder()
+   {
+      return this.cardHolder;
+   }
+
+   public void setCardHolder(java.lang.String cardHolder)
+   {
+      this.cardHolder = cardHolder;
+   }
+
+   public java.lang.Integer getCardNumber()
+   {
+      return this.cardNumber;
+   }
+
+   public void setCardNumber(java.lang.Integer cardNumber)
+   {
+      this.cardNumber = cardNumber;
+   }
+
+   public java.lang.Integer getCvv()
+   {
+      return this.cvv;
+   }
+
+   public void setCvv(java.lang.Integer cvv)
+   {
+      this.cvv = cvv;
+   }
+
+   public CreditCard(java.lang.String cardHolder,
+         java.lang.Integer cardNumber, java.lang.Integer cvv)
+   {
+      this.cardHolder = cardHolder;
+      this.cardNumber = cardNumber;
+      this.cvv = cvv;
+   }
 
 }
