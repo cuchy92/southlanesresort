@@ -1,0 +1,38 @@
+
+<form id="437130151">
+<property name="name" value="MissingCard.MissingCard-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="pCardId" type="InputText" id="790139834">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pCardId (pCardId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="pCardId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="pCardStatus" type="InputText" id="1112025615">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pCardStatus (pCardStatus)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="pCardStatus"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="pReported" type="InputDate" id="398472593">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pReported (pReported)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="pReported"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="pReporterName" type="InputText" id="92540881">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pReporterName (pReporterName)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="pReporterName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="pCardId" value="java.lang.String" id="pCardId"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="pCardStatus" value="java.lang.String" id="pCardStatus"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="pReported" value="java.util.Date" id="pReported"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="pReporterName" value="java.lang.String" id="pReporterName"/>
+</form>
