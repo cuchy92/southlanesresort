@@ -3,68 +3,40 @@
 <property name="name" value="RoomReservations.NewReservation-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="approved" type="CheckBox" id="343007467">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approved (approved)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approved"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="1" name="available" type="InputText" id="317196310">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;available (available)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="available"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="order_t_customerEmail" type="InputText" id="1566037068">
+<field position="0" name="order_t_customerEmail" type="InputText" id="1566037068">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;customerEmail (order_t)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="order_t/customerEmail"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="order_t_customerMobile" type="InputTextInteger" id="986899035">
+<field position="1" name="order_t_customerMobile" type="InputTextInteger" id="986899035">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;customerMobile (order_t)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="order_t/customerMobile"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="4" name="order_t_customerName" type="InputText" id="2050920603">
+<field position="2" name="order_t_customerName" type="InputText" id="2050920603">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;customerName (order_t)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="order_t/customerName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="order_t_numberOfRooms" type="InputTextInteger" id="1739449059">
+<field position="3" name="order_t_numberOfRooms" type="InputTextInteger" id="1739449059">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;numberOfRooms (order_t)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="order_t/numberOfRooms"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="6" name="order_t_typeOfRooms" type="InputText" id="129952576">
+<field position="4" name="order_t_typeOfRooms" type="InputText" id="129952576">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;typeOfRooms (order_t)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="order_t/typeOfRooms"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="paid" type="InputText" id="1617112234">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;paid (paid)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="paid"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="validated" type="CheckBox" id="232622223">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;validated (validated)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="validated"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <dataHolder inputId="" name="#B29FE4" type="basicType" outId="approved" value="java.lang.Boolean" id="approved"/>
 <dataHolder inputId="" name="#BBBBBB" type="basicType" outId="available" value="java.lang.String" id="available"/>
