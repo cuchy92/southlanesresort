@@ -10,20 +10,26 @@ public class RoomReservation implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Customer E-mail")
+   @org.kie.api.definition.type.Label("Customer E-mail")
    private java.lang.String customerEmail;
 
-   @org.kie.api.definition.type.Label(value = "Fullname")
+   @org.kie.api.definition.type.Label("Fullname")
    private java.lang.String customerName;
 
-   @org.kie.api.definition.type.Label(value = "Mobile")
+   @org.kie.api.definition.type.Label("Mobile")
    private java.lang.Integer customerMobile;
 
-   @org.kie.api.definition.type.Label(value = "Number of rooms")
+   @org.kie.api.definition.type.Label("Number of rooms")
    private java.lang.Integer numberOfRooms;
 
-   @org.kie.api.definition.type.Label(value = "Type of rooms")
+   @org.kie.api.definition.type.Label("Type of rooms")
    private java.lang.String typeOfRooms;
+
+   @org.kie.api.definition.type.Label(value = "From")
+   private java.util.Date from;
+
+   @org.kie.api.definition.type.Label(value = "To")
+   private java.util.Date to;
 
    public RoomReservation()
    {
@@ -79,15 +85,38 @@ public class RoomReservation implements java.io.Serializable
       this.typeOfRooms = typeOfRooms;
    }
 
+   public java.util.Date getFrom()
+   {
+      return this.from;
+   }
+
+   public void setFrom(java.util.Date from)
+   {
+      this.from = from;
+   }
+
+   public java.util.Date getTo()
+   {
+      return this.to;
+   }
+
+   public void setTo(java.util.Date to)
+   {
+      this.to = to;
+   }
+
    public RoomReservation(java.lang.String customerEmail,
          java.lang.String customerName, java.lang.Integer customerMobile,
-         java.lang.Integer numberOfRooms, java.lang.String typeOfRooms)
+         java.lang.Integer numberOfRooms, java.lang.String typeOfRooms,
+         java.util.Date from, java.util.Date to)
    {
       this.customerEmail = customerEmail;
       this.customerName = customerName;
       this.customerMobile = customerMobile;
       this.numberOfRooms = numberOfRooms;
       this.typeOfRooms = typeOfRooms;
+      this.from = from;
+      this.to = to;
    }
 
 }
