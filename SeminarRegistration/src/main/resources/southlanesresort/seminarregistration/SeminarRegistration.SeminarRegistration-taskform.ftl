@@ -269,8 +269,8 @@
                             		</div>
               	
                             		<label for="name">registered</label>
-                            		<div class="div_checkbox">
-                              		<input name="registered" type="checkbox" class="checkbox" id="registered" value="true" />
+                            		<div class="div_texbox">
+                              		<input name="registered" type="text" class="textbox" id="registered" value="" />
                             		</div>
               	
 
