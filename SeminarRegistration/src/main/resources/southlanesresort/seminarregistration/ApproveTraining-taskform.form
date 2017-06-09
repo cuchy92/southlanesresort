@@ -3,7 +3,7 @@
 <property name="name" value="ApproveTraining-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="1657675651" type="InputText" id="1657675651">
+<field position="0" name="employee" type="InputText" id="1657675651">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Employeequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -12,7 +12,7 @@
 <property name="readonly" value="true"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="actor"/>
+<property name="inputBinding" value="initiator"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="727541263" type="InputText" id="727541263">
