@@ -32,4 +32,6 @@
 <property name="hideContent" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<dataHolder inputId="iReported" name="#E9E371" type="basicType" outId="oReported" value="java.util.Date" id="reported"/>
+<dataHolder inputId="iReporterId" name="#E9E371" type="basicType" outId="oReporterId" value="java.lang.String" id="reporterName"/>
 </form>
