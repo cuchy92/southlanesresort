@@ -5,28 +5,89 @@ package southlanesresort.roomreservations.newhotelroomreservation;
  */
 
 @javax.persistence.Entity
-public class RoomReservation implements java.io.Serializable {
+public class RoomReservation implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "ROOMRESERVATION_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "ROOMRESERVATION_ID_SEQ", name = "ROOMRESERVATION_ID_GENERATOR")
-    private java.lang.Long id;
+   @org.kie.api.definition.type.Label(value = "Customer E-mail")
+   private java.lang.String customerEmail;
 
-    public RoomReservation() {
-    }
-    
-    public RoomReservation(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Fullname")
+   private java.lang.String customerName;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Mobile")
+   private java.lang.Integer customerMobile;
+
+   @org.kie.api.definition.type.Label(value = "Number of rooms")
+   private java.lang.Integer numberOfRooms;
+
+   @org.kie.api.definition.type.Label(value = "Type of rooms")
+   private java.lang.String typeOfRooms;
+
+   public RoomReservation()
+   {
+   }
+
+   public java.lang.String getCustomerEmail()
+   {
+      return this.customerEmail;
+   }
+
+   public void setCustomerEmail(java.lang.String customerEmail)
+   {
+      this.customerEmail = customerEmail;
+   }
+
+   public java.lang.String getCustomerName()
+   {
+      return this.customerName;
+   }
+
+   public void setCustomerName(java.lang.String customerName)
+   {
+      this.customerName = customerName;
+   }
+
+   public java.lang.Integer getCustomerMobile()
+   {
+      return this.customerMobile;
+   }
+
+   public void setCustomerMobile(java.lang.Integer customerMobile)
+   {
+      this.customerMobile = customerMobile;
+   }
+
+   public java.lang.Integer getNumberOfRooms()
+   {
+      return this.numberOfRooms;
+   }
+
+   public void setNumberOfRooms(java.lang.Integer numberOfRooms)
+   {
+      this.numberOfRooms = numberOfRooms;
+   }
+
+   public java.lang.String getTypeOfRooms()
+   {
+      return this.typeOfRooms;
+   }
+
+   public void setTypeOfRooms(java.lang.String typeOfRooms)
+   {
+      this.typeOfRooms = typeOfRooms;
+   }
+
+   public RoomReservation(java.lang.String customerEmail,
+         java.lang.String customerName, java.lang.Integer customerMobile,
+         java.lang.Integer numberOfRooms, java.lang.String typeOfRooms)
+   {
+      this.customerEmail = customerEmail;
+      this.customerName = customerName;
+      this.customerMobile = customerMobile;
+      this.numberOfRooms = numberOfRooms;
+      this.typeOfRooms = typeOfRooms;
+   }
 
 }
