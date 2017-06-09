@@ -3,6 +3,20 @@
 <property name="name" value="fillReport-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="cardId" type="InputText" id="2026586120">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pCardId (cardId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="pCardId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="reporterName" type="InputText" id="469303000">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pReporterName (reporterName)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="pReporterName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="pCardId" value="java.lang.String" id="cardId"/>
 <dataHolder inputId="" name="#FBB767" type="basicType" outId="pReporterName" value="java.lang.String" id="reporterName"/>
 </form>
