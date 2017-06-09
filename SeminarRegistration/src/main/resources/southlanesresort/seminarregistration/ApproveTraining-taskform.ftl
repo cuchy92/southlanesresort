@@ -219,7 +219,7 @@
             <legend>Task Info</legend>
             	<label for="name">Owners</label>
             	<div class="div_checkbox">
-											pv207
+											manager
             	
             	</div>
             	<label for="name">Actor ID</label>
