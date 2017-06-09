@@ -1,0 +1,14 @@
+
+<form id="205652742">
+<property name="name" value="ChooseTraining-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="seminarName" type="InputText" id="1126219689">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;seminar (seminarName)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="seminar"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="seminar" value="java.lang.String" id="seminarName"/>
+</form>
