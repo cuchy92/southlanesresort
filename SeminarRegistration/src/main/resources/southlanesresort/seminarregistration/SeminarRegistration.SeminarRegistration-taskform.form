@@ -19,4 +19,5 @@
 <dataHolder inputId="" name="#FF54A7" type="basicType" outId="restOutput" value="java.lang.String" id="restOutput"/>
 <dataHolder inputId="" name="#9BCAFA" type="basicType" outId="selectAnother" value="java.lang.Boolean" id="selectAnother"/>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="seminarName" value="java.lang.String" id="seminarName"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="training_t" value="southlanesresort.seminarregistration.TrainingRegistration" id="training_t"/>
 </form>
