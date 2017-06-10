@@ -17,9 +17,9 @@ public class CreditCard implements java.io.Serializable
    private java.lang.Integer cardNumber;
 
    @org.kie.api.definition.type.Label("CVV")
-   private java.lang.Integer cvv;
+   private String cvv;
 
-   @org.kie.api.definition.type.Label(value = "Validity")
+   @org.kie.api.definition.type.Label("Validity")
    private java.util.Date validity;
 
    public CreditCard()
@@ -46,16 +46,6 @@ public class CreditCard implements java.io.Serializable
       this.cardNumber = cardNumber;
    }
 
-   public java.lang.Integer getCvv()
-   {
-      return this.cvv;
-   }
-
-   public void setCvv(java.lang.Integer cvv)
-   {
-      this.cvv = cvv;
-   }
-
    public java.util.Date getValidity()
    {
       return this.validity;
@@ -66,8 +56,18 @@ public class CreditCard implements java.io.Serializable
       this.validity = validity;
    }
 
+   public java.lang.String getCvv()
+   {
+      return this.cvv;
+   }
+
+   public void setCvv(java.lang.String cvv)
+   {
+      this.cvv = cvv;
+   }
+
    public CreditCard(java.lang.String cardHolder, java.lang.Integer cardNumber,
-         java.lang.Integer cvv, java.util.Date validity)
+         java.lang.String cvv, java.util.Date validity)
    {
       this.cardHolder = cardHolder;
       this.cardNumber = cardNumber;
