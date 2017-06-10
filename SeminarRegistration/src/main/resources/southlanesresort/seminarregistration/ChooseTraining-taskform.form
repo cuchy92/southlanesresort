@@ -28,6 +28,5 @@
 <property name="outputBinding" value="training/employee"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="" name="#E9E371" type="basicType" outId="seminar" value="java.lang.String" id="seminarName"/>
 <dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="training" value="southlanesresort.seminarregistration.TrainingRegistration" id="training_t"/>
 </form>
