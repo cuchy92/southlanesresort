@@ -11,7 +11,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="outputBinding" value="actor"/>
+<property name="outputBinding" value="training_t/employeeName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#BBBBBB" type="basicType" outId="approved" value="java.lang.Boolean" id="approved"/>
