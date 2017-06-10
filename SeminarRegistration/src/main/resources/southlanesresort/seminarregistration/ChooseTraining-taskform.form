@@ -12,7 +12,7 @@
 <property name="rangeFormula" value="{communication,Communications;softSkills,Soft Skills}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="outputBinding" value="seminar"/>
+<property name="outputBinding" value="training_t/training"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="seminar" value="java.lang.String" id="seminarName"/>
