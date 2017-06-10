@@ -1,0 +1,14 @@
+
+<form id="6235055">
+<property name="name" value="ResolveIssue-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="resolveIssue" type="CheckBox" id="1051384069">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;resolveIssue (resolveIssue)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="resolveIssue"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="resolveIssue" value="java.lang.Boolean" id="resolveIssue"/>
+</form>
