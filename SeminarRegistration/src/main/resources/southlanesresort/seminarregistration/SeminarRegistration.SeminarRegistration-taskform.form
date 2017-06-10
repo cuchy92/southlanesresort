@@ -1,0 +1,30 @@
+
+<form id="1292612327">
+<property name="name" value="SeminarRegistration.SeminarRegistration-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="473508201" type="InputText" id="473508201">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Employee namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="training_t/employeeName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="training_t_training" type="InputText" id="1211181252">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;training (training_t)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="training_t/training"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="approved" value="java.lang.Boolean" id="approved"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="registered" value="java.lang.Boolean" id="registered"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="restOutput" value="java.lang.String" id="restOutput"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="selectAnother" value="java.lang.Boolean" id="selectAnother"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="seminarName" value="java.lang.String" id="seminarName"/>
+<dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="training_t" value="southlanesresort.seminarregistration.TrainingRegistration" id="training_t"/>
+</form>
