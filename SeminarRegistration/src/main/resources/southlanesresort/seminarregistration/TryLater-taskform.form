@@ -3,4 +3,34 @@
 <property name="name" value="TryLater-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="391910422">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;Hello,&lt;/p&gt;
+
+&lt;p&gt;Unfortunately training registration service is not working at this moment, please try again later.&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;Hello,&lt;/p&gt;
+
+&lt;p&gt;Unfortunately training registration service is not working at this moment, please try again later.&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;Hello,&lt;/p&gt;
+
+&lt;p&gt;Unfortunately training registration service is not working at this moment, please try again later.&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;Hello,&lt;/p&gt;
+
+&lt;p&gt;Unfortunately training registration service is not working at this moment, please try again later.&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;Hello,&lt;/p&gt;
+
+&lt;p&gt;Unfortunately training registration service is not working at this moment, please try again later.&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;Hello,&lt;/p&gt;
+
+&lt;p&gt;Unfortunately training registration service is not working at this moment, please try again later.&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;Hello,&lt;/p&gt;
+
+&lt;p&gt;Unfortunately training registration service is not working at this moment, please try again later.&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;Hello,&lt;/p&gt;
+
+&lt;p&gt;Unfortunately training registration service is not working at this moment, please try again later.&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 </form>
