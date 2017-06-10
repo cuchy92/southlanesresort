@@ -9,23 +9,14 @@ public class TrainingRegistration implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Employee Name")
-   private java.lang.String employeeName;
-   @org.kie.api.definition.type.Label(value = "Training")
+   @org.kie.api.definition.type.Label("Training")
    private java.lang.String training;
+
+   @org.kie.api.definition.type.Label(value = "Employee")
+   private java.lang.String employee;
 
    public TrainingRegistration()
    {
-   }
-
-   public java.lang.String getEmployeeName()
-   {
-      return this.employeeName;
-   }
-
-   public void setEmployeeName(java.lang.String employeeName)
-   {
-      this.employeeName = employeeName;
    }
 
    public java.lang.String getTraining()
@@ -38,11 +29,20 @@ public class TrainingRegistration implements java.io.Serializable
       this.training = training;
    }
 
-   public TrainingRegistration(java.lang.String employeeName,
-         java.lang.String training)
+   public java.lang.String getEmployee()
    {
-      this.employeeName = employeeName;
+      return this.employee;
+   }
+
+   public void setEmployee(java.lang.String employee)
+   {
+      this.employee = employee;
+   }
+
+   public TrainingRegistration(java.lang.String training, java.lang.String employee)
+   {
       this.training = training;
+      this.employee = employee;
    }
 
 }
