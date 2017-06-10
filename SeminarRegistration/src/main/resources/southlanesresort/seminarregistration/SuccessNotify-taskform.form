@@ -3,19 +3,90 @@
 <property name="name" value="SuccessNotify-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="training_t_employee" type="InputText" id="2011449687">
+<field position="1" name="training_t_employee" type="InputText" id="2011449687">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;employee (training_t)quot;"/>
-<property name="readonly" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="training/employee"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="training_t_training" type="InputText" id="1852463757">
+<field position="2" name="training_t_training" type="InputText" id="1852463757">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;training (training_t)quot;"/>
-<property name="readonly" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enrolled trainingquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="training/training"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="239748370">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;Hello,&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have been succesfully enrolled for the course.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enrollment details:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;Hello,&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have been succesfully enrolled for the course.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enrollment details:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Hello,&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have been succesfully enrolled for the course.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enrollment details:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Hello,&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have been succesfully enrolled for the course.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enrollment details:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;Hello,&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have been succesfully enrolled for the course.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enrollment details:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;Hello,&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have been succesfully enrolled for the course.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enrollment details:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;Hello,&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have been succesfully enrolled for the course.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enrollment details:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;Hello,&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have been succesfully enrolled for the course.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enrollment details:&lt;/strong&gt;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="training" name="#B29FE4" type="dataModelerEntry" outId="" value="southlanesresort.seminarregistration.TrainingRegistration" id="training_t"/>
 </form>
