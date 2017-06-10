@@ -12,7 +12,7 @@
 <property name="readonly" value="true"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="actor"/>
+<property name="inputBinding" value="training_t/employeeName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="727541263" type="InputText" id="727541263">
