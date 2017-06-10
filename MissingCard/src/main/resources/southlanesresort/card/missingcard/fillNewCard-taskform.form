@@ -1,0 +1,22 @@
+
+<form id="635603195">
+<property name="name" value="fillNewCard-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="pCardOwnerName" type="InputText" id="464538635">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tCardOwnerName (pCardOwnerName)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="tCardOwnerName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="pNewCardId" type="InputText" id="458210605">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tNewCardId (pNewCardId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="tNewCardId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="tCardOwnerName" value="java.lang.String" id="pCardOwnerName"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="tNewCardId" value="java.lang.String" id="pNewCardId"/>
+</form>
