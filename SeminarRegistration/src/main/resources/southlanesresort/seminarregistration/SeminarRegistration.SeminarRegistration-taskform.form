@@ -3,48 +3,9 @@
 <property name="name" value="SeminarRegistration.SeminarRegistration-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="approved" type="CheckBox" id="2053986628">
+<field position="0" name="473508201" type="InputText" id="473508201">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approved (approved)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approved"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="1" name="registered" type="CheckBox" id="1587830335">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;registered (registered)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="registered"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="2" name="restOutput" type="InputText" id="1020238290">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;restOutput (restOutput)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="restOutput"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="3" name="selectAnother" type="CheckBox" id="773528430">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;selectAnother (selectAnother)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="selectAnother"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="4" name="seminarName" type="InputText" id="378346436">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;seminarName (seminarName)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="outputBinding" value="seminarName"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="473508201" type="InputText" id="473508201">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;actorquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Employee namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
