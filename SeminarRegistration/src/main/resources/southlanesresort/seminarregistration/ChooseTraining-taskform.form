@@ -1,0 +1,27 @@
+
+<form id="205652742">
+<property name="name" value="ChooseTraining-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="seminarName" type="InputText" id="1126219689">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Choose trainingquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="rangeFormula" value="{communication,Communications;softSkills,Soft Skills}"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="training/training"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="training_t_employeeName" type="InputText" id="1496032087">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;employeeName (training_t)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="training/employeeName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="seminar" value="java.lang.String" id="seminarName"/>
+<dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="training" value="southlanesresort.seminarregistration.TrainingRegistration" id="training_t"/>
+</form>
