@@ -17,4 +17,11 @@ quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;Some of services are unavailable. 
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
+<field position="1" name=":decorator_1" type="Separator" id="1667982449">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="cssStyle" value="width:300px;"/>
+<property name="fieldClass" value="Separator"/>
+</field>
 </form>
