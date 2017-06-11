@@ -4,7 +4,7 @@ The South Lanes Resort is a recreational facility located in South Moravia. The 
 
 ## Demo ##
 
-> http://jbpm.ics.muni.cz:8080
+> http://jbpm.ics.muni.cz:8080 (Available from MU network - 147.251.0.0/16)
 
 ## Prerequisites ##
 
