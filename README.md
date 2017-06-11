@@ -41,4 +41,34 @@ PV207 project realized by Martin Cuchran, Marek Osvald, Martin Penaz, Jakub Smol
 
 > ./busines-central/bin/add-user.sh employee
 
+## Process dependencies ##
+
+### New Reservation ###
+#### Type of rooms ####
+* “2-bed” - RESTful service returns room not available.
+* “3-bed” - RESTful service returns room available.
+ 
+#### Number of rooms ####
+* “<1,10>” – Auto approval
+* “<11,20>” – Hotel manager approval required
+* “<21,9999>” – Hotel director approval required
+ 
+Other values have no impact on process.
+
+### Payment subprocess ### 
+#### CVV ####
+* “111” – Transaction accepted
+* “000” – Transaction denied
+ 
+Other values have no impact on process
+ 
+ 
+ 
+### Order from contractors ###
+* Service – pizza (unlimited volume)
+* Service – party hat (max 1000)
+* Service – beer (max. 500)
+ 
+When maximum value is exceeded, then RESTful service returns: Fail: out of stock.
+
 
