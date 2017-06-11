@@ -2,6 +2,10 @@
 
 The South Lanes Resort is a recreational facility located in South Moravia. The resort consists of a hotel, a golf course, indoor and outdoor pool and relaxation facilities such as sauna, whirlpool and a massage station. The resort largely focuses on corporate clientele from Czech Republic however, due to its closeness it also accommodates clients from both Slovakia and Austria. In the off-season (November-March) the prices drop significantly to attract even the middle class couples and families with children.
 
+## Demo ##
+
+> http://jbpm.ics.muni.cz:8080
+
 ## Prerequisites ##
 
 * jBPM 6
