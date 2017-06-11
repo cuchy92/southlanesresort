@@ -1,10 +1,20 @@
 # PV207 project - South lane hotel resort #
 
-The South Lanes Resort is a recreational facility located in South Moravia. The resort consists of a hotel, a golf course, indoor and outdoor pool and relaxation facilities such as sauna, whirlpool and a massage station. The resort largely focuses on corporate clientele from Czech Republic however, due to its closeness it also accommodates clients from both Slovakia and Austria. In the off-season (November-March) the prices drop significantly to attract even the middle class couples and families with children.
+PV207 project realized by Martin Cuchran, Marek Osvald, Martin Penaz, Jakub Smolar in Spring 2017 at Masaryk University. Project documentation is available on https://docs.google.com/document/d/1iisWv6UOa1oydR5yQ41eknL7N7KaxKGeptho-L1KZqk 
 
 ## Demo ##
 
 > http://jbpm.ics.muni.cz:8080 (Available from MU network - 147.251.0.0/16)
+
+### Users and passwords ###
+
+> customer - customer.1
+
+> manager - manager.1
+
+> director - director.1
+
+> employee - employee.1
 
 ## Prerequisites ##
 
