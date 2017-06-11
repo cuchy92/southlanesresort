@@ -7,6 +7,7 @@ The South Lanes Resort is a recreational facility located in South Moravia. The 
 * jBPM 6
 * OS with working mail relay
 * Java
+* Service - https://github.com/jsmolar/spring-boot-rest-service
  
 ## Installation ##
 
